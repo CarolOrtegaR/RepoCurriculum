@@ -4,66 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Curriculum</title>
-    <style>
-        body{
-            font-family: 'Times New Roman', Times, serif;
-            margin: 0; padding: 0;
-        }
-        header,nav, article,footer{
-            padding: 10px; 
-
-        }
-        nav{
-            background-color: rgb(234, 207, 199);
-        }
-        nav a{
-            text-align: center;
-            text-decoration: none;
-            margin: 0% 32px;
-        }
-        header{
-            text-align: center;
-        }
-        footer{
-            text-align: center;
-            background-color: rgb(234, 207, 199);
-        }
-        #Logo{
-            max-width: 150px;
-            border-radius: 55%;
-        }
-        .content-section{
-            padding: 30px;
-            margin: 10px;
-            border-radius: 30px;
-        }
-    </style>
+    <link rel="stylesheet" href="CSS/estilos.css">
+    
 </head>
 
 <body>
-    <header>
+    <header >
+
         <aside style="float: left; padding-left: 10px;">
             <div>
-                <img id="Logo" src="Imagenes/Logo.jpeg" alt="Logo kard_hairstylist" width="150" height="150">
+                <img id="Logo" src="Imagenes/Logo.jpeg" alt="Logo kard_hairstylist">
             </div>
         </aside>
     
-        <aside style="float:right; padding-left: 10px;">
-            <div>
-                <a href="https://www.instagram.com/kard_hairstylist/" target="_blank"> <img src="Imagenes/logoinsta.jpg" alt="Logo de Instagram" width="50" height="50"></a>
+        <aside >
+            <div style="float: right; padding-right: 10px;">
+                <a href="https://www.instagram.com/kard_hairstylist/" target="_blank"> <img id="logInsta" src="Imagenes/logoinsta.jpg" alt="Logo de Instagram" width="50" height="50"></a>
             </div>
         </aside>
-        <h1>kard_hairstylist</h1>
-        <h2>Carol Dayana Ortega Reyes</h2>
-        <nav>
-            <a href="index.html">Principal</a>
-            <a href="informacion.html">Información Personal</a>
-            <a href="experiencia.html">Experiencia Laboral</a>
-            <a href="temasInteres.html">Temas de Interés</a>
-            <a href="resumen.html">Resumen</a>
+
+        <section id="cabecera">
+            <h1>kard_hairstylist</h1>
+            <h2>Carol Dayana Ortega Reyes</h2>
+        </section>
+
+        <nav id="menu">
+            <ul id="texto">
+                <li><a href="index.html">Principal</a></li>
+                <li><a href="informacion.html">Información Personal</a></li>
+                <li><a href="experiencia.html">Experiencia Laboral</a></li>
+                <li><a href="temasInteres.html">Temas de Interés</a></li>
+                <li><a href="resumen.html">Resumen</a></li>
+            </ul>
+        </nav>
             
     </header>
-    <main>
+    <main class="infopersonal">
         <article style="display: flex; align-items: center;">
             <img src="Imagenes/FotoProfesional.jpeg" alt="Foto Profesional" width="400" height=:auto;margin-right:20px;>
             
